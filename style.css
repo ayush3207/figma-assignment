@@ -1,0 +1,63 @@
+:root {
+  --color-accent: #FFB400 ;      /* the yellow */
+  --color-bg: #f0f0f6cf ;          /* page background (light lavender-gray) */
+  --color-card: #f0f0f6d3;        /* card background (white) */
+  --color-text:#121212 ;        /* dark heading text */
+  --color-text-muted:#ffffffb1 ;  /* gray paragraph text */
+  --font-main: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 10;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px; /* change to your header height later */
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <p>Amet minim mollit non deserunt...</p>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <!-- card content -->
+      </article>
+      <!-- more cards -->
+    </div>
+  </div>
+</section>
