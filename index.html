@@ -1,85 +1,242 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-  logo <img>
-  <button> for the hamburger (mobile menu)
-  <nav> > <ul> > <li> > <a href="#home"> ... 6 links
-</header>
 
-<main>
-  <section id="home">      hero: <h1>, <p>, button, illustration <img>
-  <section id="skills">    <h2>
-  <section id="education"> <h2>
-  <section id="projects"> 
-     <h2>projects</h2>
-    <div class="projects-grid">
-
-  <article class="project-card">
-    <img src="images/project1.png" alt="Developer working at a computer">
-    <h3>How To Make Flyer Design</h3>
-    <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit</p>
-    <ul class="tags">
-      <li>Typescript</li>
-      <li>ReactJs</li>
-      <li>NextJs</li>
-      <li>CSS</li>
-      <li>HTML</li>
-      <li>MongoDB</li>
-    </ul>
-  </article>
-
-</div>
-
-  <section id="recommendations"> 
-
-  <article class="testimonial-card">
-    <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
-    <h3>Great Quality!</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <div class="person">
-      <img src="images/james.png" alt="James Gouse">
-      <div>
-        <p>James Gouse</p>
-        <p>Graphic Designer</p>
-      </div>
-    </div>
-  </article>
-
-</div>
-  <section id="contact">  
-    <form>
-  <label for="name">Your Full Name (Required)</label>
-  <input type="text" id="name" required>
-
-  <label for="email">Your Email (Required)</label>
-  <input type="email" id="email" required>
-
-  <label for="subject">Subject</label>
-  <input type="text" id="subject">
-
-  <label for="message">Your Message</label>
-  <textarea id="message"></textarea>
-
-  <button type="submit">SEND MESSAGE</button>
-</form>
-</main>
-
-<footer>
-  <div>
-  <h3>Quick Links</h3>
-  <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#skills">Skills</a></li>
-  </ul>
-</div>
-</footer>
     
+    <header>
+        <div class="logo">
+            <img src="images/Logo.png" alt="My Logo">
+        </div>
+
+        <button type="button" class="menu-btn" aria-label="Open menu">
+        </button>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                ......
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <section id="home">
+            <div class="hero-content">
+                <h1>Hello i am Ayush Jaiswal</h1>
+                <h2><span>Front-end</span> Developer</h2>
+
+                <p>
+                    I am Btech Cse AIML Student
+                </p>
+
+                <button type="button">HIRE ME →</button>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/Background Image.png" alt="Developer illustration">
+            </div>
+        </section>
+
+    
+        <section id="skills">
+            <h2>My Skills</h2>
+            <p>I have a basic understanding of HTML and can create structured web pages using semantic tags, forms, images, links, and div elements..</p>
+        </section>
+
+        
+        <section id="education">
+            <h2>Education</h2>
+            <p>Pursuing B.Tech in Computer Science and Engineering (Artificial Intelligence & Machine Learning) from Galgotias University, Expected Graduation: 2028..</p>
+        </section>
+
+    
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <p>
+                Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua
+                Dolor Do Amet Sint.
+            </p>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <img src="images/project1.png" alt="Project preview">
+                    <h3>How To Make Flyer Design</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit</p>
+
+                    <ul class="tags">
+                        <li>Typescript</li>
+                        <li>ReactJs</li>
+                        <li>NextJs</li>
+                        <li>CSS</li>
+                        <li>HTML</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/project2.png" alt="Project preview">
+                    <h3>How To Make Flyer Design</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit</p>
+
+                    <ul class="tags">
+                        <li>Typescript</li>
+                        <li>ReactJs</li>
+                        <li>NextJs</li>
+                        <li>CSS</li>
+                    </ul>
+                </article>
+
+                <article class="project-card">
+                    <img src="images/project3.png" alt="Project preview">
+                    <h3>How To Make Flyer Design</h3>
+                    <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit</p>
+
+                    <ul class="tags">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Recommendations Section -->
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+
+            <p>
+                Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua
+                Dolor Do Amet.
+            </p>
+
+            <div class="recommendations-container">
+
+                <article class="testimonial-card">
+                    <p class="stars" aria-label="5 out of 5 stars">
+                        ★★★★★
+                    </p>
+
+                    <h3>Great Quality!</h3>
+
+                    <p>
+                        Lorem Ipsum Dolor Sit Amet, Consectetur
+                        Adipiscing Elit.
+                    </p>
+
+                    <div class="person">
+                        <img src="images/james.png" alt="James Gouse">
+
+                        <div>
+                            <h4>James Gouse</h4>
+                            <p>Graphic Designer</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <p class="stars" aria-label="5 out of 5 stars">
+                    
+                    </p>
+
+                    <h3>Amazing Work!</h3>
+
+                    <p>
+                        Lorem Ipsum Dolor Sit Amet, Consectetur
+                        Adipiscing Elit.
+                    </p>
+
+                    <div class="person">
+                        <img src="images/tiana.png" alt="Tiana Philips">
+
+                        <div>
+                            <h4>Tiana Philips</h4>
+                            <p>Photographer</p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    
+        <section id="contact">
+
+            <div class="contact-form">
+                <h2>Leave Me Your Info</h2>
+
+                <form>
+        <label for="name">You Name (Required)</label>
+        <input type="text" id="name" name="name" required>
+
+            <label for="email">mail (Required)</label>
+                    <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message</label>
+                    <textarea id="message" name="message"></textarea>
+
+                    <button type="submit">message</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+
+                <div class="info-card">
+                    <h3>Location</h3>
+                    <p>Country: Bangladesh</p>
+                    <p>City: Dhaka</p>
+                    <p>Street: 35 Vhatara, Badda</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Email</h3>
+                    <p>Email: Youremail@gmail.com</p>
+                    <p>Skype: @Yourusername</p>
+                    <p>Telegram: @Yourusername</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>Contact</h3>
+                    <p>Support Services: 15369</p>
+                    <p>Office: +58 (021)356 587 235</p>
+                    <p>Personal: +58 (021)356 587 235</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+ <div>
+ <h3>Quick Links</h3>
+<ul>
+    <li><a href="#home">Home</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <p>All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
