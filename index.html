@@ -17,13 +17,68 @@
   <section id="home">      hero: <h1>, <p>, button, illustration <img>
   <section id="skills">    <h2>
   <section id="education"> <h2>
-  <section id="projects">  <h2>, <p>, then 6 <article> cards
-  <section id="recommendations"> <h2>, <p>, then testimonial <article> cards
-  <section id="contact">   <h2> + <form> on the left, <h2> + info cards on the right
+  <section id="projects"> 
+     <h2>projects</h2>
+    <div class="projects-grid">
+
+  <article class="project-card">
+    <img src="images/project1.png" alt="Developer working at a computer">
+    <h3>How To Make Flyer Design</h3>
+    <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit</p>
+    <ul class="tags">
+      <li>Typescript</li>
+      <li>ReactJs</li>
+      <li>NextJs</li>
+      <li>CSS</li>
+      <li>HTML</li>
+      <li>MongoDB</li>
+    </ul>
+  </article>
+
+</div>
+
+  <section id="recommendations"> 
+
+  <article class="testimonial-card">
+    <p class="stars" aria-label="5 out of 5 stars">★★★★★</p>
+    <h3>Great Quality!</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="person">
+      <img src="images/james.png" alt="James Gouse">
+      <div>
+        <p>James Gouse</p>
+        <p>Graphic Designer</p>
+      </div>
+    </div>
+  </article>
+
+</div>
+  <section id="contact">  
+    <form>
+  <label for="name">Your Full Name (Required)</label>
+  <input type="text" id="name" required>
+
+  <label for="email">Your Email (Required)</label>
+  <input type="email" id="email" required>
+
+  <label for="subject">Subject</label>
+  <input type="text" id="subject">
+
+  <label for="message">Your Message</label>
+  <textarea id="message"></textarea>
+
+  <button type="submit">SEND MESSAGE</button>
+</form>
 </main>
 
 <footer>
-  client logos, logo, rating badges, 3 link columns, copyright
+  <div>
+  <h3>Quick Links</h3>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+  </ul>
+</div>
 </footer>
     
 </body>
