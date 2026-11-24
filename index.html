@@ -3,335 +3,423 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayush Jaiswal - Front-end Developer</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header class="navbar">
-        <div class="container nav-container">
-            <div class="logo">
-                <img src="images/Logo.png" alt="Portfolio Logo">
-            </div>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home" class="active">Home</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#recommendations">Recommendations</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+    <header>
+        
+        <div class="logo">
+              <img src="assets/Logo.png" alt="logo">
         </div>
+
+        <nav> <!--navigation links-->
+            <ul> <!--list of items-->
+            <li><a href="#home" class="active">Home</a></li> <!--list item , clickable links-->
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+    
     </header>
-
     <main>
-        <section id="home" class="hero">
-            <div class="container hero-container">
-                <span class="shape circle-yellow-1"></span>
-                <span class="shape circle-green-1"></span>
-                <span class="shape circle-green-2"></span>
-                <span class="shape square-blue"></span>
-                <span class="shape square-yellow"></span>
-                <span class="shape triangle-red"></span>
 
-                <div class="hero-content">
-                    <h1>I'm Ayush Jaiswal</h1>
-                    <h2><span>Front-end</span> Developer</h2>
-                    <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Et, Volutpat Feugiat Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.</p>
-                    <button type="button" class="btn-primary">HIRE ME &rarr;</button>
-                </div>
+        
+        <section id="home" class="logo2"> 
+          <span class="shape rectangle rectangle-blue"></span>
+          <span class="shape rectangle rectangle-yellow"></span>
+          <span class="shape circle circle1"></span>
+          <span class="shape circle circle2"></span>
+          <span class="shape circle circle3"></span>
 
-                <div class="hero-image">
-                    <img src="images/undraw_proud_coder_re_exuy 1.png" alt="Developer illustration">
-                </div>
+          <svg class="shape triangle" viewBox="0 0 23 22">
+    <polygon points="11.5,1 22,21 1,21"
+             fill="none"
+             stroke="#FF2E00CC"
+             stroke-width="2"/>
+</svg>
+          
+          <div class="logo2-content">
+          <h1>
+           I’m Rayan Adlrdard<br>
+           <span class="highlight">Front-end</span> Developer
+          </h1>      
+        <p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, volutpat feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc lectus.        </p> 
+    
+    <a href="#contact" class="hire-btn">HIRE ME →</a>
+    </div>
+    <div class="logo2-image">
+     <img src="assets/undraw_proud_coder_re_exuy 1.png" alt="logo2">
+    </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <p class="projects-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+        <div class="project-grid">
+          <article class="project-card">
+            <img src="assets/Image.png" alt="Project preview">
+
+            <div class="project-info">
+                <h3>How to make Flyer Design</h3>
+                <p> <span class="highlight1">Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...</span></p>
+
+        <div class="project-tags">
+        <span>Typescript</span>
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>CSS</span>
+        <span>HTML</span>
+        <span>MongoDB</span>
+        </div>
+
             </div>
-        </section>
+        </article>  
+          <article class="project-card">
+            <img src="assets/Image (1).png" alt="Project preview">
 
-        <section id="projects" class="section-block">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Projects</h2>
-                    <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
-                </div>
+            <div class="project-info">
+                <h3>How to make Flyer Design</h3>
+                <p> <span class="highlight1">Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...</span></p>
 
-                <div class="projects-grid">
-                    <article class="project-card">
-                        <img src="images/Image.png" alt="How To Make Flyer Design">
-                        <div class="card-body">
-                            <h3>How To Make Flyer Design</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...</p>
-                            <ul class="tags">
-                                <li>Typescript</li>
-                                <li>ReactJs</li>
-                                <li>NextJs</li>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                                <li>MongoDB</li>
-                            </ul>
-                        </div>
-                    </article>
+        <div class="project-tags">
+        <span>Typescript</span>
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>CSS</span>
+        <span>HTML</span>
+        <span>MongoDB</span>
+        </div>
 
-                    <article class="project-card">
-                        <img src="images/Image (1).png" alt="How To Make Flyer Design">
-                        <div class="card-body">
-                            <h3>How To Make Flyer Design</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...</p>
-                            <ul class="tags">
-                                <li>Typescript</li>
-                                <li>ReactJs</li>
-                                <li>NextJs</li>
-                                <li>CSS</li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <img src="images/Image.png" alt="How To Make Flyer Design">
-                        <div class="card-body">
-                            <h3>How To Make Flyer Design</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...</p>
-                            <ul class="tags">
-                                <li>Typescript</li>
-                                <li>ReactJs</li>
-                                <li>NextJs</li>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                                <li>MongoDB</li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <img src="images/Image (1).png" alt="How To Make Flyer Design">
-                        <div class="card-body">
-                            <h3>How To Make Flyer Design</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...</p>
-                            <ul class="tags">
-                                <li>Typescript</li>
-                                <li>ReactJs</li>
-                                <li>NextJs</li>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                                <li>MongoDB</li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <img src="images/Image.png" alt="How To Make Flyer Design">
-                        <div class="card-body">
-                            <h3>How To Make Flyer Design</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...</p>
-                            <ul class="tags">
-                                <li>Typescript</li>
-                                <li>ReactJs</li>
-                                <li>NextJs</li>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                                <li>MongoDB</li>
-                            </ul>
-                        </div>
-                    </article>
-
-                    <article class="project-card">
-                        <img src="images/Image (1).png" alt="How To Make Flyer Design">
-                        <div class="card-body">
-                            <h3>How To Make Flyer Design</h3>
-                            <p>Lorem Ipsum Dolor Sit Amet, Consec Adipiscing Elit Awd And Lorem Ipsum...</p>
-                            <ul class="tags">
-                                <li>Typescript</li>
-                                <li>ReactJs</li>
-                                <li>NextJs</li>
-                                <li>CSS</li>
-                                <li>HTML</li>
-                                <li>MongoDB</li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
             </div>
-        </section>
+        </article>  
+          <article class="project-card 2">
+            <img src="assets/Image (2).png" alt="Project preview">
 
-        <section id="recommendations" class="section-block">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Recommendations</h2>
-                    <p>Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia Consequat Duis Enim Velit Mollit. Lorem Ipsum</p>
-                </div>
+            <div class="project-info">
+                <h3>How to make Flyer Design</h3>
+                <p> <span class="highlight1">Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...</span></p>
 
-                <div class="recommendations-grid">
-                    <article class="testimonial-card">
-                        <p class="stars">★★★★★</p>
-                        <h3>Great Quality!</h3>
-                        <p class="review-text">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet....</p>
-                        <div class="person">
-                            <img src="images/Profile (1).png" alt="James Gouse">
-                            <div>
-                                <h4>James Gouse</h4>
-                                <p>Graphic Designer</p>
-                            </div>
-                        </div>
-                    </article>
+        <div class="project-tags">
+        <span>Typescript</span>
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>CSS</span>
+        <span>HTML</span>
+        <span>MongoDB</span>
+        </div>
 
-                    <article class="testimonial-card">
-                        <p class="stars">★★★★★</p>
-                        <h3>Amazing Work!</h3>
-                        <p class="review-text">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet....</p>
-                        <div class="person">
-                            <img src="images/Profile.png" alt="Tiana Philips">
-                            <div>
-                                <h4>Tiana Philips</h4>
-                                <p>Photographer</p>
-                            </div>
-                        </div>
-                    </article>
-
-                    <article class="testimonial-card">
-                        <p class="stars">★★★★★</p>
-                        <h3>Great Quality!</h3>
-                        <p class="review-text">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet....</p>
-                        <div class="person">
-                            <img src="images/Profile (2).png" alt="Talan Westervelt">
-                            <div>
-                                <h4>Talan Westervelt</h4>
-                                <p>Business Man</p>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-
-                <div class="carousel-dots">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
             </div>
-        </section>
+        </article>  
+          <article class="project-card 3">
+            <img src="assets/Image (3).png" alt="Project preview">
 
-        <section id="contact" class="section-block">
-            <div class="container contact-wrapper">
-                <div class="contact-form-col">
-                    <h2>Leave ME Your Info</h2>
-                    <form class="contact-form">
-                        <label for="name">Your Full Name ( Required)</label>
-                        <input type="text" id="name" name="name" required>
+            <div class="project-info">
+                <h3>How to make Flyer Design</h3>
+                <p> <span class="highlight1">Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...</span></p>
 
-                        <label for="email">Your Email ( Required)</label>
-                        <input type="email" id="email" name="email" required>
+        <div class="project-tags">
+        <span>Typescript</span>
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>CSS</span>
+        <span>HTML</span>
+        <span>MongoDB</span>
+        </div>
 
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject">
+            </div>
+        </article>  
+          <article class="project-card 4">
+            <img src="assets/Image (4).png" alt="Project preview">
 
-                        <label for="message">Your Message</label>
-                        <textarea id="message" name="message" rows="6"></textarea>
+            <div class="project-info">
+                <h3>How to make Flyer Design</h3>
+                <p> <span class="highlight1">Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...</span></p>
 
-                        <button type="submit" class="btn-primary">SEND MESSAGE</button>
-                    </form>
+        <div class="project-tags">
+        <span>Typescript</span>
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>CSS</span>
+        <span>HTML</span>
+        <span>MongoDB</span>
+        </div>
+
+            </div>
+        </article>  
+          <article class="project-card 5">
+            <img src="assets/Image (5).png" alt="Project preview">
+
+            <div class="project-info">
+                <h3>How to make Flyer Design</h3>
+                <p> <span class="highlight1">Lorem ipsum dolor sit amet, consec adipiscing elit awd and lorem ipsum...</span></p>
+
+        <div class="project-tags">
+        <span>Typescript</span>
+        <span>React.js</span>
+        <span>Next.js</span>
+        <span>CSS</span>
+        <span>HTML</span>
+        <span>MongoDB</span>
+        </div>
+
+            </div>
+        </article>  
+        </div>
+    </section>
+    <section id="recommendations" class="recommendations">
+        <div class="recommendation-heading">
+            <h2>Recommendations</h2>
+              <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+            Velit officia consequat duis enim velit mollit. Lorem ipsum
+        </p>
+        </div>
+        <div class="carousel">
+            <div class="review-card">
+                <div class="stars">
+                       <img src="assets/Rating.png" alt="stars">
                 </div>
 
-                <div class="contact-info-col">
-                    <h2>Contact Information</h2>
+            <h3>Amazing work!</h3>
 
-                    <div class="info-card">
-                        <div class="icon-circle">📍</div>
-                        <div class="info-row"><span>Country:</span> <span>Bangladesh</span></div>
-                        <div class="info-row"><span>City:</span> <span>Dhaka</span></div>
-                        <div class="info-row"><span>Streat:</span> <span>35 Vhatara, Badda</span></div>
-                    </div>
+            <p>
+                Lorem ipsum dolor sit amet,<br>
+                consectetur adipiscing elit. Vitae nulla<br>
+                diam in ac dictum a urna viverra morbi.<br>
+                Morbi donec amet....
+            </p>
+         <div class="reviewer">
+    <img src="assets/Profile (1).png" alt="Tiana Philips">
 
-                    <div class="info-card">
-                        <div class="icon-circle">✉️</div>
-                        <div class="info-row"><span>Email:</span> <span>Youremail@Gmail.Com</span></div>
-                        <div class="info-row"><span>Skype:</span> <span>@Yourusername</span></div>
-                        <div class="info-row"><span>Telegram:</span> <span>@Yourusername</span></div>
-                    </div>
-
-                    <div class="info-card">
-                        <div class="icon-circle">📱</div>
-                        <div class="info-row"><span>Support Services:</span> <span>15369</span></div>
-                        <div class="info-row"><span>Office:</span> <span>+58 (021)356 587 235</span></div>
-                        <div class="info-row"><span>Personal:</span> <span>+58 (021)356 587 235</span></div>
-                    </div>
+    <div class="reviewer-info">
+        <h4>Tiana Philips</h4>
+        <span>Photographer</span>
+    </div>
+</div>
+        </div>
+            <div class="review-card">
+                <div class="stars">
+                       <img src="assets/Rating.png" alt="stars">
                 </div>
-            </div>
-        </section>
 
-        <section class="section-block">
-            <div class="container partner-logos">
-                <img src="https://placehold.co/120x60/F0F0F6/333?text=3+Generate" alt="Partner 1">
-                <img src="https://placehold.co/120x60/F0F0F6/FFB400?text=GL" alt="Partner 2">
-                <img src="https://placehold.co/120x60/F0F0F6/2B2B2B?text=B+Generate" alt="Partner 3">
-                <img src="https://placehold.co/120x60/F0F0F6/FF8C00?text=3+Generate" alt="Partner 4">
+            <h3>Great Quality!</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet,<br>
+                consectetur adipiscing elit. Vitae nulla<br>
+                diam in ac dictum a urna viverra morbi.<br>
+                Morbi donec amet....
+            </p>
+         <div class="reviewer">
+    <img src="assets/Profile.png" alt="James Gouse">
+
+    <div class="reviewer-info">
+        <h4>James Gouse</h4>
+        <span>Graphic Designer</span>
+    </div>
+</div>
+        </div>
+            <div class="review-card">
+                <div class="stars">
+                       <img src="assets/Rating.png" alt="stars">
+                </div>
+
+            <h3>Amazing work!</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet,<br>
+                consectetur adipiscing elit. Vitae nulla<br>
+                diam in ac dictum a urna viverra morbi.<br>
+                Morbi donec amet....
+            </p>
+         <div class="reviewer">
+    <img src="assets/Profile (1).png" alt="Tiana Philips">
+
+    <div class="reviewer-info">
+        <h4>Tiana Philips</h4>
+        <span>Photographer</span>
+    </div>
+</div>
+        </div>
+            <div class="review-card">
+                <div class="stars">
+                       <img src="assets/Rating.png" alt="stars">
+                </div>
+
+            <h3>Great Quality!</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet,<br>
+                consectetur adipiscing elit. Vitae nulla<br>
+                diam in ac dictum a urna viverra morbi.<br>
+                Morbi donec amet....
+            </p>
+         <div class="reviewer">
+    <img src="assets/Profile (2).png" alt="Talan Westervelt">
+
+    <div class="reviewer-info">
+        <h4>Talan Westervelt</h4>
+        <span>Business man</span>
+    </div>
+</div>
+        </div>
+            <div class="review-card">
+                <div class="stars">
+                       <img src="assets/Rating.png" alt="stars">
+                </div>
+
+            <h3>Great Quality!</h3>
+
+            <p>
+                Lorem ipsum dolor sit amet,<br>
+                consectetur adipiscing elit. Vitae nulla<br>
+                diam in ac dictum a urna viverra morbi.<br>
+                Morbi donec amet....
+            </p>
+         <div class="reviewer">
+    <img src="assets/Profile.png" alt="James Gousel">
+
+    <div class="reviewer-info">
+        <h4>James Gousel</h4>
+        <span>Photographer</span>
+    </div>
+</div>
+        </div>
+</div>
+<div class="carousel-dots">
+    <button class="dot active" data-slide="0"></button>
+    <button class="dot" data-slide="1"></button>
+    <button class="dot" data-slide="2"></button>
+    <button class="dot" data-slide="3"></button>
+    <button class="dot" data-slide="4"></button>
+
+</div>
+        
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-form">
+            <h2>Leave ME Your Info</h2>
+            <form>
+                <label for="name">Your Full Name ( Required)</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email ( Required)</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="sub">Subject</label>
+                <input type="text" id="sub" name="sub" required>
+                
+                <label for="msg">Your Message</label>
+                <textarea id="msg" name="msg" rows="6"></textarea>
+
+                <button type="submit">SEND MESSAGE</button>
+            </form>
+        </div>
+
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+
+            <div class="contact-details">
+                <div class="contact-icon">
+                    <img src="assets/vector (1).png" alt="location">
+                </div>
+                <div class="info-row"><span>Country:</span><span>Bangladesh</span></div>
+                <div class="info-row"><span>City:</span><span>Dhaka</span></div>
+                <div class="info-row"><span>Street:</span><span>35 Vhatara, Badda</span></div>
             </div>
-        </section>
-    </main>
+
+            <div class="contact-details">
+                <div class="contact-icon">
+                    <img src="assets/mail.png" alt="mail">
+                </div>
+                <div class="info-row"><span>Email:</span><span>Youremail@Gmail.com</span></div>
+                <div class="info-row"><span>Skype:</span><span>@Yourusername</span></div>
+                <div class="info-row"><span>Telegram:</span><span>@Yourusername</span></div>
+            </div>
+
+            <div class="contact-details">
+                <div class="contact-icon">
+                    <img src="assets/Vector.png" alt="call">
+                </div>
+                <div class="info-row"><span>Support Services:</span><span>15369</span></div>
+                <div class="info-row"><span>Office:</span><span>+58 (021)356 587 235</span></div>
+                <div class="info-row"><span>Personal:</span><span>+58 (021)356 587 235</span></div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
-        <div class="container">
-            <div class="footer-top">
-                <img src="images/Logo.png" alt="Portfolio Logo" class="footer-main-logo">
-            </div>
 
-            <div class="footer-columns-container">
-                <div class="footer-col logo-col">
-                    <div class="footer-ratings">
-                        <div class="rating-item">
-                            <img src="https://placehold.co/90x32/3b5998/FFF?text=Rating+1" alt="4.5/5 Rating">
-                            <p>4.5/5 Rating On Lorem</p>
-                        </div>
-                        <div class="rating-item">
-                            <img src="https://placehold.co/75x32/5568b8/FFF?text=Rating+2" alt="9/10 Rating">
-                            <p>9/10 Rating On Ipsum</p>
-                        </div>
-                        <div class="rating-item">
-                            <img src="https://placehold.co/85x32/1c3144/FFF?text=Rating+3" alt="4.5/5 Rating">
-                            <p>4.5/5 Rating On Dorel</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="partner-logos">
+        <img src="assets/Frame (7).png" alt="Partner 1">
+        <img src="assets/Frame (4).png" alt="Partner 2">
+        <img src="assets/Frame (5).png" alt="Partner 3">
+        <img src="assets/Frame (6).png" alt="Partner 4">
+    </div>
 
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#recommendations">Recommendations</a></li>
-                    </ul>
-                </div>
+    <div class="footer-content">
 
-                <div class="footer-col">
-                    <h4>Portfolio</h4>
-                    <ul>
-                        <li><a href="#">Frontend Development</a></li>
-                        <li><a href="#">Backend Development</a></li>
-                        <li><a href="#">Website Design</a></li>
-                        <li><a href="#">Machine Learning</a></li>
-                        <li><a href="#">Problem Solving &amp; DSA</a></li>
-                    </ul>
-                </div>
+        <div class="footer-brand">
+            <img src="assets/Logo.png" alt="Portfolio logo">
 
-                <div class="footer-col connect-col">
-                    <h4>Connect</h4>
-                    <ul class="social-links">
-                        <li><a href="#" class="linkedin">Linked<span>in</span></a></li>
-                        <li><a href="#" class="instagram">📷 Instagram</a></li>
-                        <li><a href="#" class="facebook"><span>f</span> facebook</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <p>&copy; 2024 Copyright, All Right Reserved</p>
+            <div class="rating-badges">
+                <img src="assets/Rectangle 97 (1).png" alt="Rating badge">
+                <p>4.5/5 Rating On Lorem</p>
+                <img src="assets/Group 270.png" alt="Rating badge">
+                <p>9/10 Rating On Ipsum</p>
+                <img src="assets/Rectangle 100 (1).png" alt="Rating badge">
+                <p>4.5/5 Rating On Dorel</p>
             </div>
         </div>
-    </footer>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendations">Recommendations</a>
+        </div>
+
+        <div class="footer-links">
+            <h3>Portfolio</h3>
+            <a href="#projects">Frontend Development</a>
+            <a href="#projects">Backend Development</a>
+            <a href="#projects">Website Design</a>
+            <a href="#projects">Machine Learning</a>
+            <a href="#projects">Problem Solving &amp; DSA</a>
+        </div>
+
+        <div class="footer-social">
+            <h3>Connect</h3>
+            <a href="#">
+                 <img src="assets/LinkedIn (1).png" alt="LinkedIn"></a>
+            <a href="#">
+                 <img src="assets/Instagram (2).png" alt="Instagram">                
+            </a>
+            <a href="#">
+                <img src="assets/Facebook (1).png" alt="Facebook">
+            </a>
+        </div>
+
+    </div>
+
+    <div class="copyright">
+        <p>© 2026 Copyright, All Rights Reserved</p>
+    </div>
+
+</footer>
+    </main>
 
 </body>
 </html>
